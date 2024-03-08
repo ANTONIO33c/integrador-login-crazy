@@ -1,0 +1,14 @@
+.image{
+    width: 100%;
+    height: auto;
+    max-width: 9em;
+    margin-bottom: 1.5vh;
+}
+
+@media only screen and (min-width: 1280px){
+    .image{
+        w
+    }
+}
+
+

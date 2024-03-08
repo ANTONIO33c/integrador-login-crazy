@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/img-login.css">
+    <title>Login - Crazy4Games</title>
+</head>
+<body>
+<div id="container">
+<main id="main">
+    <!-- Image -->
+<img src="img/logo-crazy4games (2).svg" alt="" class="image">
+<form method="POST" action="#">
+<!-- Usuário -->
+<label for="email">Email:</label>
+                        <input required type="email" name="email" placeholder="Digite seu Email*" required class="caixa" id="email" id="user">
+<!-- Senha -->
+<label for="password">Senha: </label>
+                        <input required type="password" name="senha" minlength="8"
+                            placeholder="Senha(Mínimo 8 Digitos)*" class="caixa" id="senha">
+<!-- Botão -->
+<button type="submit" onclick="return validarSenha()" id="botao">ENVIAR</button>
+</form>
+<div class="esqueceu">
+    <div id="esqueceu-senha">
+        <p>esqueceu sua senha?</p>
+    </div>
+    <div id="nao-conta">
+        <p>Não tenho conta</p>
+    </div>
+</div>
+</div>
+</div>
+
+</main>
+</div>
+<script src="js/login.js"></script>
+</body>
+</html>
